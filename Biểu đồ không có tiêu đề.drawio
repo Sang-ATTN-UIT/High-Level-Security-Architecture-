@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T01:01:15.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="4OUmXUDN17CiRMt31Njp" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T01:01:56.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="Zf3DFr27jN0Rkie6Rjwv" version="21.1.9" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="1584" dy="946" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -64,7 +64,7 @@
         <mxCell id="6a7d8f32e03d9370-50" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" parent="1" source="6a7d8f32e03d9370-13" target="6a7d8f32e03d9370-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6a7d8f32e03d9370-51" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" parent="1" source="6a7d8f32e03d9370-13" edge="1">
+        <mxCell id="6a7d8f32e03d9370-51" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" parent="1" source="EM3SQcsi9P10AQIZPUZ1-3" edge="1" target="EM3SQcsi9P10AQIZPUZ1-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1061.6386138613866" y="197.5" as="targetPoint" />
           </mxGeometry>
@@ -137,11 +137,8 @@
         <mxCell id="6a7d8f32e03d9370-62" value="High-Level Security Architecture&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="499" y="30" width="861" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EM3SQcsi9P10AQIZPUZ1-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="990" y="98" width="160" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="EM3SQcsi9P10AQIZPUZ1-3" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.firewall;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="258" width="75" height="93" as="geometry" />
+        <mxCell id="EM3SQcsi9P10AQIZPUZ1-2" value="INTERNET" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet;fillColor=#D2D3D3;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="820" y="70" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="EM3SQcsi9P10AQIZPUZ1-4" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.firewall;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="670" y="380" width="75" height="93" as="geometry" />
@@ -198,7 +195,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EM3SQcsi9P10AQIZPUZ1-20" value="NG FIREWALL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="938" y="275" width="60" height="30" as="geometry" />
+          <mxGeometry x="1010" y="269" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EM3SQcsi9P10AQIZPUZ1-21" value="WAF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="713.5" y="350" width="60" height="30" as="geometry" />
@@ -214,6 +211,15 @@
         </mxCell>
         <mxCell id="udzTiGpcD-3nQIr-t3zq-2" value="Server&amp;nbsp;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" vertex="1" parent="1">
           <mxGeometry x="180" y="426" width="94.67" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="udzTiGpcD-3nQIr-t3zq-4" value="" style="edgeStyle=none;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="6a7d8f32e03d9370-13" target="EM3SQcsi9P10AQIZPUZ1-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="927" y="210" as="targetPoint" />
+            <mxPoint x="1031" y="484" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EM3SQcsi9P10AQIZPUZ1-3" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;shape=mxgraph.citrix.firewall;fillColor=#66B2FF;gradientColor=#0066CC;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="930" y="269" width="75" height="93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
